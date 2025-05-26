@@ -1,5 +1,6 @@
--- Active: 1747412849250@@127.0.0.1@5432CREATE DATABASE conservation_db;
--- create DATABASE conservation_db;
+-- Active: 1748248221626@@127.0.0.1@5432@conservation_db
+create DATABASE conservation_db;
+-- create rangers table
 CREATE Table rangers (
     ranger_id SERIAL PRIMARY KEY NOT NULL,
     "name" VARCHAR(50) NOT NULL,
